@@ -4,7 +4,7 @@ const AssetsAboutusComponent = () => {
 return(
      <div className="p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-[70px] lg:ml-[40px]">
     <div className=" p-4">
-      <img className="w-full h-[250px] md:h-[300px] object-cover"
+      <img className="w-full h-[250px] md:h-[300px] object-cover" alt='Assets'
            src="https://assets-global.website-files.com/636cc9840038712edca597df/636cc98400387121eaa59a3f_weebly-blog-3d-image-vectary-2LKHyN5k8nUrQnKHGreoID.png" />
       <h1 className="font-sans text-[15px] font-bold pt-4 pb-3">Brand Assets</h1>
       <p className="font-sans text-[10px] text-start">
@@ -14,7 +14,7 @@ return(
       </p>
     </div>
     <div className=" p-4">
-      <img className="w-full h-[250px] md:h-[300px] object-cover "
+      <img className="w-full h-[250px] md:h-[300px] object-cover " alt='about Us'
            src="https://images.unsplash.com/photo-1613292252537-be6ada176e0e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       <h1 className="font-sans text-[15px] font-bold pt-4 pb-3">About US</h1>
       <p className="font-sans text-[10px] text-start">
@@ -24,7 +24,7 @@ return(
       </p>
     </div>
     <div className=" p-4">
-      <img className="w-full h-[250px] md:h-[300px] object-cover "
+      <img className="w-full h-[250px] md:h-[300px] object-cover " alt='Investor relations'
            src="https://plus.unsplash.com/premium_photo-1663013659189-58ff1c9e1976?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       <h1 className="font-sans text-[15px] font-bold pt-4 pb-3">Investor Relations</h1>
       <p className="font-sans text-[10px] text-start">

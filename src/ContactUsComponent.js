@@ -7,7 +7,7 @@ const ContactUsComponent = () => {
         <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
         </div>
         <div className="w-2/3">
-        <p className="text-gray-600 mb-6">If you're a member of the media and would like to get in touch, please send us a note. For non-press-related inquiries, please use our <a href="#" className="text-blue-500 font-sans">general contact page.</a></p>
+        <p className="text-gray-600 mb-6">If you're a member of the media and would like to get in touch, please send us a note. For non-press-related inquiries, please use our <span className="text-blue-500 font-sans">general contact page.</span></p>
         <form className="w-full max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
