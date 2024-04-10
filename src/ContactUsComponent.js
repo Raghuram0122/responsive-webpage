@@ -11,20 +11,20 @@ const ContactUsComponent = () => {
         <form className="w-full max-w-lg">
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" placeholder="First Name" type="text" />
+              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none " placeholder="First Name" type="text" />
             </div>
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" placeholder="Phone" type="tel" />
+              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none " placeholder="Phone" type="tel" />
             </div>
             <div className="w-full px-3 mb-6 md:mb-0 mt-5">
-              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white" placeholder="Email" type="email" />
+              <input className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 leading-tight focus:outline-none " placeholder="Email" type="email" />
             </div>
           </div>
           <div className="w-full mb-4">
             <textarea className="appearance-none block w-full  text-gray-700 border border-gray-400 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white h-48 resize-none" placeholder="Type your message here..."></textarea>
           </div>
           <div className="flex items-center justify-between">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w-[125px] rounded-2xl focus:outline-none focus:shadow-outline" type="submit">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 w-[125px] rounded-2xl focus:outline-none focus:shadow-outline" type="button">
               Send
             </button>
           </div>
